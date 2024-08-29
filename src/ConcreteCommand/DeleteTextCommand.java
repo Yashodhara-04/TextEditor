@@ -1,8 +1,9 @@
-package CommandInterface;
+package ConcreteCommand;
 
+import Command.ICommand;
 import Receiver.TextCommand;
 
-public class DeleteTextCommand implements  ICommand{
+public class DeleteTextCommand implements ICommand {
     TextCommand textCommand;
     String text ;
     int startPosition;

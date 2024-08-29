@@ -1,8 +1,7 @@
 package Client;
 
-import CommandInterface.DeleteTextCommand;
-import CommandInterface.ICommand;
-import CommandInterface.InsertTextCommand;
+import ConcreteCommand.DeleteTextCommand;
+import ConcreteCommand.InsertTextCommand;
 import Invoker.TextEditorInvoker;
 import Receiver.TextCommand;
 

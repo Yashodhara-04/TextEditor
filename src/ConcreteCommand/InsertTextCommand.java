@@ -1,9 +1,9 @@
-package CommandInterface;
+package ConcreteCommand;
 
+import Command.ICommand;
 import Receiver.TextCommand;
-import org.w3c.dom.Text;
 
-public class InsertTextCommand implements ICommand{
+public class InsertTextCommand implements ICommand {
     TextCommand textCommand= null;
     String text;
     int startPosition;

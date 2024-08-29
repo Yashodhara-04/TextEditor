@@ -1,7 +1,6 @@
 package Invoker;
 
-import CommandInterface.ICommand;
-import Receiver.TextCommand;
+import Command.ICommand;
 
 import java.util.Stack;
 
